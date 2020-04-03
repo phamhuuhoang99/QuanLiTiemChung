@@ -59,29 +59,29 @@ namespace Test_Mot_Chut
         // Kiem tra xem trong bang SQL co thong tin phu hop voi cac o Text vua nhap k 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            SqlConnection cn = new SqlConnection("Data Source=DESKTOP-PS6R480;Initial Catalog=QuanLiTiemChung;Integrated Security=True");
-            cn.Open();
-            SqlCommand cmd = new SqlCommand("select * from DangNhap where tenDangNhap = '"+txtDangNhap.Text+"' and matKhau = '"+txtMatKhau.Text+"'",cn);
-            SqlDataReader dr;
-            dr = cmd.ExecuteReader();
-            int dem = 0;
-            while(dr.Read())
-            {
-                dem += 1;
-            }
+            //SqlConnection cn = new SqlConnection("Data Source=DESKTOP-PS6R480;Initial Catalog=QuanLiTiemChung;Integrated Security=True");
+            //cn.Open();
+            //SqlCommand cmd = new SqlCommand("select * from DangNhap where tenDangNhap = '"+txtDangNhap.Text+"' and matKhau = '"+txtMatKhau.Text+"'",cn);
+            //SqlDataReader dr;
+            //dr = cmd.ExecuteReader();
+            //int dem = 0;
+            //while(dr.Read())
+            //{
+            //    dem += 1;
+            //}
 
-            if (dem == 1)
-            {
+            //if (dem == 1)
+            //{
                 //MessageBox.Show("Ok");
-                this.Hide();
+               // this.Hide();
                 FormMain fMain = new FormMain();
                 fMain.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Ten dang nhap hoac mat khau sai !");
-            }
-            dr.Close();
+            //}
+            //else
+            //{
+            //    MessageBox.Show("Ten dang nhap hoac mat khau sai !");
+            //}
+            //dr.Close();
         }
 
         bool Login(string userName,string passWord)

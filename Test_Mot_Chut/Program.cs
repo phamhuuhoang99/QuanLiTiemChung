@@ -14,10 +14,10 @@ namespace Test_Mot_Chut
         [STAThread]
         static void Main()
         {
-            ;;;;;;;;;;
+       
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormBegin());
+            Application.Run(new FormMain());
         }
     }
 }
