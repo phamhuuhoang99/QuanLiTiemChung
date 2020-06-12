@@ -23,7 +23,7 @@ namespace Test_Mot_Chut
             this.Close();
         }
 
-        String sqlCon = "Server=HUUHOANG;Database=QuanLiTiemChung;User Id=sa;pwd=123456";
+        String sqlCon = "Data Source=.;Initial Catalog=QLTiemChung;Integrated Security=True";
         SqlConnection sqlConnect = null;
          
         
@@ -168,6 +168,9 @@ namespace Test_Mot_Chut
                }
           }
 
-          
-     }
+        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+    }
 }

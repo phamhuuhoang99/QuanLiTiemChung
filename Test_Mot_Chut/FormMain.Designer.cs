@@ -32,9 +32,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lbVaccine = new System.Windows.Forms.Label();
             this.btnKhoThuoc = new System.Windows.Forms.Button();
-            this.btnNhapXuat = new System.Windows.Forms.Button();
+            this.btnKhachHang = new System.Windows.Forms.Button();
             this.pnlMenu = new System.Windows.Forms.Panel();
-            this.btnKeHoach = new System.Windows.Forms.Button();
+            this.btnPhieuKham = new System.Windows.Forms.Button();
             this.btnNhanVien = new System.Windows.Forms.Button();
             this.iconExit = new System.Windows.Forms.PictureBox();
             this.iconZoomMax = new System.Windows.Forms.PictureBox();
@@ -93,28 +93,30 @@
             this.btnKhoThuoc.UseVisualStyleBackColor = true;
             this.btnKhoThuoc.Click += new System.EventHandler(this.btnKhoThuoc_Click);
             // 
-            // btnNhapXuat
+            // btnKhachHang
             // 
-            this.btnNhapXuat.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.btnNhapXuat.FlatAppearance.BorderSize = 0;
-            this.btnNhapXuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNhapXuat.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNhapXuat.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnNhapXuat.Image = ((System.Drawing.Image)(resources.GetObject("btnNhapXuat.Image")));
-            this.btnNhapXuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNhapXuat.Location = new System.Drawing.Point(0, 536);
-            this.btnNhapXuat.Name = "btnNhapXuat";
-            this.btnNhapXuat.Size = new System.Drawing.Size(170, 53);
-            this.btnNhapXuat.TabIndex = 3;
-            this.btnNhapXuat.Text = "    Bệnh Nhân";
-            this.btnNhapXuat.UseVisualStyleBackColor = true;
+            this.btnKhachHang.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnKhachHang.FlatAppearance.BorderSize = 0;
+            this.btnKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKhachHang.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKhachHang.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnKhachHang.Image = ((System.Drawing.Image)(resources.GetObject("btnKhachHang.Image")));
+            this.btnKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnKhachHang.Location = new System.Drawing.Point(0, 409);
+            this.btnKhachHang.Name = "btnKhachHang";
+            this.btnKhachHang.Size = new System.Drawing.Size(170, 91);
+            this.btnKhachHang.TabIndex = 3;
+            this.btnKhachHang.Text = "Khách Hàng";
+            this.btnKhachHang.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnKhachHang.UseVisualStyleBackColor = true;
+            this.btnKhachHang.Click += new System.EventHandler(this.btnKhachHang_Click);
             // 
             // pnlMenu
             // 
             this.pnlMenu.BackColor = System.Drawing.SystemColors.Highlight;
-            this.pnlMenu.Controls.Add(this.btnKeHoach);
+            this.pnlMenu.Controls.Add(this.btnPhieuKham);
             this.pnlMenu.Controls.Add(this.btnNhanVien);
-            this.pnlMenu.Controls.Add(this.btnNhapXuat);
+            this.pnlMenu.Controls.Add(this.btnKhachHang);
             this.pnlMenu.Controls.Add(this.btnKhoThuoc);
             this.pnlMenu.Controls.Add(this.lbVaccine);
             this.pnlMenu.Controls.Add(this.pictureBox2);
@@ -125,21 +127,23 @@
             this.pnlMenu.Size = new System.Drawing.Size(170, 682);
             this.pnlMenu.TabIndex = 0;
             // 
-            // btnKeHoach
+            // btnPhieuKham
             // 
-            this.btnKeHoach.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.btnKeHoach.FlatAppearance.BorderSize = 0;
-            this.btnKeHoach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKeHoach.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKeHoach.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnKeHoach.Image = ((System.Drawing.Image)(resources.GetObject("btnKeHoach.Image")));
-            this.btnKeHoach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnKeHoach.Location = new System.Drawing.Point(0, 313);
-            this.btnKeHoach.Name = "btnKeHoach";
-            this.btnKeHoach.Size = new System.Drawing.Size(170, 98);
-            this.btnKeHoach.TabIndex = 5;
-            this.btnKeHoach.Text = "    Kế Hoạch";
-            this.btnKeHoach.UseVisualStyleBackColor = true;
+            this.btnPhieuKham.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnPhieuKham.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.btnPhieuKham.FlatAppearance.BorderSize = 0;
+            this.btnPhieuKham.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPhieuKham.Font = new System.Drawing.Font("Courier New", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhieuKham.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnPhieuKham.Image = ((System.Drawing.Image)(resources.GetObject("btnPhieuKham.Image")));
+            this.btnPhieuKham.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPhieuKham.Location = new System.Drawing.Point(0, 305);
+            this.btnPhieuKham.Name = "btnPhieuKham";
+            this.btnPhieuKham.Size = new System.Drawing.Size(170, 98);
+            this.btnPhieuKham.TabIndex = 5;
+            this.btnPhieuKham.Text = "     Phiếu Khám";
+            this.btnPhieuKham.UseVisualStyleBackColor = false;
+            this.btnPhieuKham.Click += new System.EventHandler(this.btnPhieuKham_Click);
             // 
             // btnNhanVien
             // 
@@ -150,7 +154,7 @@
             this.btnNhanVien.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("btnNhanVien.Image")));
             this.btnNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnNhanVien.Location = new System.Drawing.Point(0, 200);
+            this.btnNhanVien.Location = new System.Drawing.Point(0, 201);
             this.btnNhanVien.Name = "btnNhanVien";
             this.btnNhanVien.Size = new System.Drawing.Size(170, 98);
             this.btnNhanVien.TabIndex = 4;
@@ -233,7 +237,7 @@
             this.btnSlide.Image = ((System.Drawing.Image)(resources.GetObject("btnSlide.Image")));
             this.btnSlide.Location = new System.Drawing.Point(170, 0);
             this.btnSlide.Name = "btnSlide";
-            this.btnSlide.Size = new System.Drawing.Size(471, 262);
+            this.btnSlide.Size = new System.Drawing.Size(32, 30);
             this.btnSlide.TabIndex = 0;
             this.btnSlide.TabStop = false;
             this.btnSlide.Click += new System.EventHandler(this.btnSlide_Click);
@@ -259,7 +263,9 @@
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMain";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnlMenu.ResumeLayout(false);
             this.pnlMenu.PerformLayout();
@@ -277,7 +283,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label lbVaccine;
         private System.Windows.Forms.Button btnKhoThuoc;
-        private System.Windows.Forms.Button btnNhapXuat;
+        private System.Windows.Forms.Button btnKhachHang;
         private System.Windows.Forms.Panel pnlMenu;
         private System.Windows.Forms.PictureBox iconExit;
         private System.Windows.Forms.PictureBox iconZoomMax;
@@ -287,6 +293,6 @@
         private System.Windows.Forms.PictureBox btnSlide;
         private System.Windows.Forms.Panel pnlContain;
         private System.Windows.Forms.Button btnNhanVien;
-        private System.Windows.Forms.Button btnKeHoach;
+        private System.Windows.Forms.Button btnPhieuKham;
     }
 }

@@ -86,18 +86,19 @@ namespace Test_Mot_Chut
         }
 
         // mo 1 form tren 1 panel
-        private void openFormInPanel(object FormChild)
+        private  void openFormInPanel(object FormChild)
         {
             // neu panelContain dang chua cai gi thi xoa di de hien thi form moi len
-            if (this.pnlContain.Controls.Count > 0)
+            if (pnlContain.Controls.Count > 0)
             {
-                this.pnlContain.Controls.RemoveAt(0);
+                pnlContain.Controls.RemoveAt(0);
             }
             Form fc = FormChild as Form;
             fc.TopLevel = false;
             fc.Dock = DockStyle.Fill;
-            this.pnlContain.Controls.Add(fc);
-            this.pnlContain.Tag = fc;
+            fc.TopMost = true;
+            pnlContain.Controls.Add(fc);
+            pnlContain.Tag = fc;
             fc.Show();
         }
 
@@ -109,6 +110,23 @@ namespace Test_Mot_Chut
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
             openFormInPanel(new FormStaff());
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            if (FormLogIn.arrchucVu[0] != "LT") btnPhieuKham.Enabled = false;
+            if (FormLogIn.arrchucVu[0] == "LT") btnPhieuKham.Enabled = true;
+        }
+
+        private void btnPhieuKham_Click(object sender, EventArgs e)
+        {
+            FormCustomer fc = new FormCustomer();
+            fc.ShowDialog();
+        }
+
+        private void btnKhachHang_Click(object sender, EventArgs e)
+        {
+            openFormInPanel(new FormListKH_BSK());
         }
     }
 }

@@ -79,7 +79,7 @@
             this.btnTurnOff.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTurnOff.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTurnOff.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTurnOff.Location = new System.Drawing.Point(295, 12);
+            this.btnTurnOff.Location = new System.Drawing.Point(307, 0);
             this.btnTurnOff.Name = "btnTurnOff";
             this.btnTurnOff.Size = new System.Drawing.Size(34, 30);
             this.btnTurnOff.TabIndex = 1;
@@ -97,7 +97,7 @@
             this.txtDangNhap.Name = "txtDangNhap";
             this.txtDangNhap.Size = new System.Drawing.Size(223, 30);
             this.txtDangNhap.TabIndex = 1;
-            this.txtDangNhap.Text = "Ten Dang Nhap";
+            this.txtDangNhap.Text = "Email";
             this.txtDangNhap.Enter += new System.EventHandler(this.txtUsername_Enter);
             this.txtDangNhap.Leave += new System.EventHandler(this.txtUsername_Leave);
             // 
@@ -111,7 +111,7 @@
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.Size = new System.Drawing.Size(223, 30);
             this.txtMatKhau.TabIndex = 2;
-            this.txtMatKhau.Text = "Mat Khau";
+            this.txtMatKhau.Text = "Mật Khẩu";
             this.txtMatKhau.Enter += new System.EventHandler(this.txtPassword_Enter);
             this.txtMatKhau.Leave += new System.EventHandler(this.txtPassword_Leave);
             // 
@@ -197,6 +197,7 @@
             this.linkLBForgotPassw.TabIndex = 12;
             this.linkLBForgotPassw.TabStop = true;
             this.linkLBForgotPassw.Text = "Quên Mật Khẩu ?";
+            this.linkLBForgotPassw.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLBForgotPassw_LinkClicked);
             // 
             // label2
             // 

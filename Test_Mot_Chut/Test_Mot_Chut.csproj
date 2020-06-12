@@ -43,6 +43,7 @@
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,11 +68,35 @@
     <Compile Include="FormChangePassWord.Designer.cs">
       <DependentUpon>FormChangePassWord.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomer.Designer.cs">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDrugStore.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormDrugStore.Designer.cs">
       <DependentUpon>FormDrugStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInsertPT_LeTan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInsertPT_LeTan.Designer.cs">
+      <DependentUpon>FormInsertPT_LeTan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListKH_BSK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListKH_BSK.Designer.cs">
+      <DependentUpon>FormListKH_BSK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListKH_BST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListKH_BST.Designer.cs">
+      <DependentUpon>FormListKH_BST.cs</DependentUpon>
     </Compile>
     <Compile Include="FormLogIn.cs">
       <SubType>Form</SubType>
@@ -113,8 +138,20 @@
     <EmbeddedResource Include="FormChangePassWord.resx">
       <DependentUpon>FormChangePassWord.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomer.resx">
+      <DependentUpon>FormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDrugStore.resx">
       <DependentUpon>FormDrugStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInsertPT_LeTan.resx">
+      <DependentUpon>FormInsertPT_LeTan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListKH_BSK.resx">
+      <DependentUpon>FormListKH_BSK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListKH_BST.resx">
+      <DependentUpon>FormListKH_BST.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormLogIn.resx">
       <DependentUpon>FormLogIn.cs</DependentUpon>

@@ -17,7 +17,7 @@ namespace Test_Mot_Chut
        
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormBegin());
         }
     }
 }
