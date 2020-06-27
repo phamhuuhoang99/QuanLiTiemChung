@@ -7,8 +7,7 @@ using System.Windows.Forms;
 namespace Test_Mot_Chut
 {
     static class Program
-    {
-        /// <summary>
+    { /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
@@ -17,7 +16,7 @@ namespace Test_Mot_Chut
        
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormBegin());
+            Application.Run(new FormDrugStore());
         }
     }
 }

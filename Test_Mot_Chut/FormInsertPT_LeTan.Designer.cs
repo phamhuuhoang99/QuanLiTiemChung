@@ -92,9 +92,9 @@
             this.groupBox2.Controls.Add(this.panel4);
             this.groupBox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.groupBox2.Location = new System.Drawing.Point(578, 116);
+            this.groupBox2.Location = new System.Drawing.Point(578, 125);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(590, 367);
+            this.groupBox2.Size = new System.Drawing.Size(590, 395);
             this.groupBox2.TabIndex = 27;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Chi Tiết Vacxine";
@@ -104,7 +104,7 @@
             this.lbTongTien.AutoSize = true;
             this.lbTongTien.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbTongTien.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.lbTongTien.Location = new System.Drawing.Point(478, 193);
+            this.lbTongTien.Location = new System.Drawing.Point(478, 208);
             this.lbTongTien.Name = "lbTongTien";
             this.lbTongTien.Size = new System.Drawing.Size(18, 19);
             this.lbTongTien.TabIndex = 18;
@@ -115,7 +115,7 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label9.Location = new System.Drawing.Point(380, 193);
+            this.label9.Location = new System.Drawing.Point(380, 208);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(92, 19);
             this.label9.TabIndex = 17;
@@ -137,16 +137,16 @@
             this.panel5.Controls.Add(this.label11);
             this.panel5.Controls.Add(this.label10);
             this.panel5.Controls.Add(this.cbxLoaiVacxine);
-            this.panel5.Location = new System.Drawing.Point(6, 38);
+            this.panel5.Location = new System.Drawing.Point(6, 41);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(559, 141);
+            this.panel5.Size = new System.Drawing.Size(559, 152);
             this.panel5.TabIndex = 1;
             // 
             // cbxMaVX
             // 
             this.cbxMaVX.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.cbxMaVX.FormattingEnabled = true;
-            this.cbxMaVX.Location = new System.Drawing.Point(114, 63);
+            this.cbxMaVX.Location = new System.Drawing.Point(114, 68);
             this.cbxMaVX.Name = "cbxMaVX";
             this.cbxMaVX.Size = new System.Drawing.Size(135, 27);
             this.cbxMaVX.TabIndex = 27;
@@ -154,7 +154,7 @@
             // nudMinute
             // 
             this.nudMinute.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.nudMinute.Location = new System.Drawing.Point(497, 59);
+            this.nudMinute.Location = new System.Drawing.Point(497, 64);
             this.nudMinute.Maximum = new decimal(new int[] {
             59,
             0,
@@ -169,7 +169,7 @@
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label15.Location = new System.Drawing.Point(472, 61);
+            this.label15.Location = new System.Drawing.Point(472, 66);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(19, 19);
             this.label15.TabIndex = 19;
@@ -178,7 +178,7 @@
             // txtLieuLuong
             // 
             this.txtLieuLuong.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtLieuLuong.Location = new System.Drawing.Point(114, 109);
+            this.txtLieuLuong.Location = new System.Drawing.Point(114, 117);
             this.txtLieuLuong.Name = "txtLieuLuong";
             this.txtLieuLuong.Size = new System.Drawing.Size(59, 26);
             this.txtLieuLuong.TabIndex = 25;
@@ -188,7 +188,7 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label14.Location = new System.Drawing.Point(179, 113);
+            this.label14.Location = new System.Drawing.Point(179, 122);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(27, 19);
             this.label14.TabIndex = 24;
@@ -199,9 +199,9 @@
             this.btnThem.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnThem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnThem.Location = new System.Drawing.Point(444, 102);
+            this.btnThem.Location = new System.Drawing.Point(444, 110);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(103, 30);
+            this.btnThem.Size = new System.Drawing.Size(103, 32);
             this.btnThem.TabIndex = 22;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
@@ -211,7 +211,7 @@
             // 
             this.dtMuiTiepTheo.Enabled = false;
             this.dtMuiTiepTheo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtMuiTiepTheo.Location = new System.Drawing.Point(422, 8);
+            this.dtMuiTiepTheo.Location = new System.Drawing.Point(422, 9);
             this.dtMuiTiepTheo.MinimumSize = new System.Drawing.Size(0, 29);
             this.dtMuiTiepTheo.Name = "dtMuiTiepTheo";
             this.dtMuiTiepTheo.Size = new System.Drawing.Size(125, 29);
@@ -222,7 +222,7 @@
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label13.Location = new System.Drawing.Point(6, 112);
+            this.label13.Location = new System.Drawing.Point(6, 121);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(99, 19);
             this.label13.TabIndex = 17;
@@ -231,7 +231,7 @@
             // chkMuiTiepTheo
             // 
             this.chkMuiTiepTheo.AutoSize = true;
-            this.chkMuiTiepTheo.Location = new System.Drawing.Point(286, 14);
+            this.chkMuiTiepTheo.Location = new System.Drawing.Point(286, 15);
             this.chkMuiTiepTheo.Name = "chkMuiTiepTheo";
             this.chkMuiTiepTheo.Size = new System.Drawing.Size(135, 23);
             this.chkMuiTiepTheo.TabIndex = 1;
@@ -242,7 +242,7 @@
             // nudHour
             // 
             this.nudHour.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.nudHour.Location = new System.Drawing.Point(422, 59);
+            this.nudHour.Location = new System.Drawing.Point(422, 64);
             this.nudHour.Maximum = new decimal(new int[] {
             17,
             0,
@@ -267,7 +267,7 @@
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label12.Location = new System.Drawing.Point(305, 66);
+            this.label12.Location = new System.Drawing.Point(305, 71);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(77, 19);
             this.label12.TabIndex = 19;
@@ -278,7 +278,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label11.Location = new System.Drawing.Point(6, 66);
+            this.label11.Location = new System.Drawing.Point(6, 71);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(95, 19);
             this.label11.TabIndex = 18;
@@ -289,7 +289,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label10.Location = new System.Drawing.Point(6, 15);
+            this.label10.Location = new System.Drawing.Point(6, 16);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(106, 19);
             this.label10.TabIndex = 17;
@@ -299,7 +299,7 @@
             // 
             this.cbxLoaiVacxine.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.cbxLoaiVacxine.FormattingEnabled = true;
-            this.cbxLoaiVacxine.Location = new System.Drawing.Point(114, 12);
+            this.cbxLoaiVacxine.Location = new System.Drawing.Point(114, 13);
             this.cbxLoaiVacxine.Name = "cbxLoaiVacxine";
             this.cbxLoaiVacxine.Size = new System.Drawing.Size(135, 27);
             this.cbxLoaiVacxine.TabIndex = 0;
@@ -309,9 +309,9 @@
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.dgvDSVacxine);
-            this.panel4.Location = new System.Drawing.Point(6, 215);
+            this.panel4.Location = new System.Drawing.Point(6, 232);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(559, 139);
+            this.panel4.Size = new System.Drawing.Size(559, 150);
             this.panel4.TabIndex = 0;
             // 
             // dgvDSVacxine
@@ -327,7 +327,7 @@
             this.dgvDSVacxine.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDSVacxine.Location = new System.Drawing.Point(0, 0);
             this.dgvDSVacxine.Name = "dgvDSVacxine";
-            this.dgvDSVacxine.Size = new System.Drawing.Size(557, 137);
+            this.dgvDSVacxine.Size = new System.Drawing.Size(557, 148);
             this.dgvDSVacxine.TabIndex = 0;
             // 
             // clmMaVX
@@ -363,9 +363,9 @@
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.groupBox1.Location = new System.Drawing.Point(25, 116);
+            this.groupBox1.Location = new System.Drawing.Point(25, 125);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(524, 367);
+            this.groupBox1.Size = new System.Drawing.Size(524, 395);
             this.groupBox1.TabIndex = 26;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Phiếu";
@@ -375,10 +375,10 @@
             this.txtLTPhieu.Enabled = false;
             this.txtLTPhieu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLTPhieu.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.txtLTPhieu.Location = new System.Drawing.Point(419, 55);
+            this.txtLTPhieu.Location = new System.Drawing.Point(419, 59);
             this.txtLTPhieu.Multiline = true;
             this.txtLTPhieu.Name = "txtLTPhieu";
-            this.txtLTPhieu.Size = new System.Drawing.Size(90, 24);
+            this.txtLTPhieu.Size = new System.Drawing.Size(90, 26);
             this.txtLTPhieu.TabIndex = 3;
             // 
             // panel1
@@ -386,9 +386,9 @@
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.txtMaPhieuTiem);
             this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel1.Location = new System.Drawing.Point(142, 55);
+            this.panel1.Location = new System.Drawing.Point(142, 59);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(101, 24);
+            this.panel1.Size = new System.Drawing.Size(101, 26);
             this.panel1.TabIndex = 4;
             // 
             // txtMaPhieuTiem
@@ -399,7 +399,7 @@
             this.txtMaPhieuTiem.Location = new System.Drawing.Point(3, 2);
             this.txtMaPhieuTiem.Multiline = true;
             this.txtMaPhieuTiem.Name = "txtMaPhieuTiem";
-            this.txtMaPhieuTiem.Size = new System.Drawing.Size(93, 19);
+            this.txtMaPhieuTiem.Size = new System.Drawing.Size(93, 20);
             this.txtMaPhieuTiem.TabIndex = 3;
             // 
             // cbxBST
@@ -407,7 +407,7 @@
             this.cbxBST.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxBST.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.cbxBST.FormattingEnabled = true;
-            this.cbxBST.Location = new System.Drawing.Point(415, 150);
+            this.cbxBST.Location = new System.Drawing.Point(415, 162);
             this.cbxBST.Name = "cbxBST";
             this.cbxBST.Size = new System.Drawing.Size(94, 24);
             this.cbxBST.TabIndex = 1;
@@ -417,7 +417,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label1.Location = new System.Drawing.Point(263, 56);
+            this.label1.Location = new System.Drawing.Point(263, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(146, 19);
             this.label1.TabIndex = 5;
@@ -428,7 +428,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label2.Location = new System.Drawing.Point(263, 106);
+            this.label2.Location = new System.Drawing.Point(263, 114);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(112, 19);
             this.label2.TabIndex = 6;
@@ -437,10 +437,10 @@
             // textBox1
             // 
             this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(11, 215);
+            this.textBox1.Location = new System.Drawing.Point(11, 232);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(498, 139);
+            this.textBox1.Size = new System.Drawing.Size(498, 149);
             this.textBox1.TabIndex = 16;
             // 
             // label3
@@ -448,7 +448,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label3.Location = new System.Drawing.Point(263, 151);
+            this.label3.Location = new System.Drawing.Point(263, 163);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(104, 19);
             this.label3.TabIndex = 7;
@@ -459,7 +459,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label8.Location = new System.Drawing.Point(224, 193);
+            this.label8.Location = new System.Drawing.Point(224, 208);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(71, 19);
             this.label8.TabIndex = 15;
@@ -470,7 +470,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label4.Location = new System.Drawing.Point(5, 106);
+            this.label4.Location = new System.Drawing.Point(5, 114);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(130, 19);
             this.label4.TabIndex = 8;
@@ -481,7 +481,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label7.Location = new System.Drawing.Point(5, 56);
+            this.label7.Location = new System.Drawing.Point(5, 60);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(120, 19);
             this.label7.TabIndex = 14;
@@ -492,9 +492,9 @@
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.txtMaKhachHang);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel2.Location = new System.Drawing.Point(142, 105);
+            this.panel2.Location = new System.Drawing.Point(142, 113);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(101, 24);
+            this.panel2.Size = new System.Drawing.Size(101, 26);
             this.panel2.TabIndex = 5;
             // 
             // txtMaKhachHang
@@ -505,13 +505,13 @@
             this.txtMaKhachHang.Location = new System.Drawing.Point(3, 3);
             this.txtMaKhachHang.Multiline = true;
             this.txtMaKhachHang.Name = "txtMaKhachHang";
-            this.txtMaKhachHang.Size = new System.Drawing.Size(93, 19);
+            this.txtMaKhachHang.Size = new System.Drawing.Size(93, 20);
             this.txtMaKhachHang.TabIndex = 3;
             // 
             // dtNgayTiem
             // 
             this.dtNgayTiem.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtNgayTiem.Location = new System.Drawing.Point(142, 144);
+            this.dtNgayTiem.Location = new System.Drawing.Point(142, 155);
             this.dtNgayTiem.MinimumSize = new System.Drawing.Size(0, 29);
             this.dtNgayTiem.Name = "dtNgayTiem";
             this.dtNgayTiem.Size = new System.Drawing.Size(101, 29);
@@ -522,7 +522,7 @@
             this.cbxBSK.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxBSK.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.cbxBSK.FormattingEnabled = true;
-            this.cbxBSK.Location = new System.Drawing.Point(415, 105);
+            this.cbxBSK.Location = new System.Drawing.Point(415, 113);
             this.cbxBSK.Name = "cbxBSK";
             this.cbxBSK.Size = new System.Drawing.Size(94, 24);
             this.cbxBSK.TabIndex = 9;
@@ -532,7 +532,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.label6.Location = new System.Drawing.Point(7, 151);
+            this.label6.Location = new System.Drawing.Point(7, 163);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(90, 19);
             this.label6.TabIndex = 12;
@@ -547,7 +547,7 @@
             this.panel3.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1192, 74);
+            this.panel3.Size = new System.Drawing.Size(1192, 80);
             this.panel3.TabIndex = 22;
             // 
             // btnClose
@@ -558,7 +558,7 @@
             this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnClose.Location = new System.Drawing.Point(1164, 0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(28, 29);
+            this.btnClose.Size = new System.Drawing.Size(28, 31);
             this.btnClose.TabIndex = 15;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
@@ -568,7 +568,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(490, 18);
+            this.label5.Location = new System.Drawing.Point(490, 19);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(169, 34);
             this.label5.TabIndex = 0;
@@ -580,9 +580,9 @@
             this.btnChuyen.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnChuyen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyen.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnChuyen.Location = new System.Drawing.Point(512, 531);
+            this.btnChuyen.Location = new System.Drawing.Point(512, 572);
             this.btnChuyen.Name = "btnChuyen";
-            this.btnChuyen.Size = new System.Drawing.Size(106, 50);
+            this.btnChuyen.Size = new System.Drawing.Size(106, 54);
             this.btnChuyen.TabIndex = 23;
             this.btnChuyen.Text = "Chuyển";
             this.btnChuyen.UseVisualStyleBackColor = false;
@@ -590,10 +590,10 @@
             // 
             // FormInsertPT_LeTan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1192, 652);
+            this.ClientSize = new System.Drawing.Size(1192, 702);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel3);
