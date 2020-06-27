@@ -31,39 +31,72 @@
             this.btnClose = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.nhomThuoc = new System.Windows.Forms.TreeView();
+            this.btnVX_TK = new System.Windows.Forms.Button();
+            this.txtSearch = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbbtypeTK = new System.Windows.Forms.ComboBox();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.lvThuoc = new System.Windows.Forms.ListView();
-            this.maVacxin = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tenVacxin = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.xuatXu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.donGia = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.tenDichVu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.TenLoai = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.dtgVacxin = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.btnThoat = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.btnLuu = new System.Windows.Forms.Button();
-            this.cboNhomThuoc = new System.Windows.Forms.ComboBox();
+            this.lbSua = new System.Windows.Forms.Label();
+            this.btnVietPhieu = new System.Windows.Forms.Button();
+            this.cbxLoaiVacxin = new System.Windows.Forms.ComboBox();
+            this.txtGiaThanh = new System.Windows.Forms.TextBox();
             this.txtXuatXu = new System.Windows.Forms.TextBox();
-            this.txtTenThuoc = new System.Windows.Forms.TextBox();
-            this.txtMaThuoc = new System.Windows.Forms.TextBox();
+            this.txtTenVacxin = new System.Windows.Forms.TextBox();
+            this.txtMaVacxin = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.btnNhap = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
             this.metroTabPage1 = new MetroFramework.Controls.MetroTabPage();
             this.metroTabPage2 = new MetroFramework.Controls.MetroTabPage();
-            this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.metroButton1 = new MetroFramework.Controls.MetroButton();
-            this.metroDateTime2 = new MetroFramework.Controls.MetroDateTime();
-            this.metroDateTime1 = new MetroFramework.Controls.MetroDateTime();
+            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.cbbLoai = new System.Windows.Forms.ComboBox();
+            this.btnSearchLoai = new System.Windows.Forms.Button();
+            this.txtSearchLoai = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.splitContainer8 = new System.Windows.Forms.SplitContainer();
+            this.dtgLoaiVacxin = new System.Windows.Forms.DataGridView();
+            this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.dtgVacxin_Ma = new System.Windows.Forms.DataGridView();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.lbSuaLoai = new System.Windows.Forms.Label();
+            this.btnXemLoai = new System.Windows.Forms.Button();
+            this.btnSuaLoai = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnThemLoai = new System.Windows.Forms.Button();
+            this.txtTenLoai = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtMaLoai = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.metroTabPage3 = new MetroFramework.Controls.MetroTabPage();
+            this.splitContainer5 = new System.Windows.Forms.SplitContainer();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.splitContainer6 = new System.Windows.Forms.SplitContainer();
+            this.dtgPhieuTiem = new System.Windows.Forms.DataGridView();
+            this.splitContainer7 = new System.Windows.Forms.SplitContainer();
+            this.btnXem_PN = new System.Windows.Forms.Button();
+            this.btnXoaPhieu = new System.Windows.Forms.Button();
+            this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.btnTK_PN = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtMa_NV = new System.Windows.Forms.TextBox();
+            this.dtNgayNhap_PN = new MetroFramework.Controls.MetroDateTime();
+            this.label10 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.dtgPT_CT = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -74,13 +107,47 @@
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgVacxin)).BeginInit();
             this.groupBox3.SuspendLayout();
             this.metroTabControl1.SuspendLayout();
             this.metroTabPage1.SuspendLayout();
             this.metroTabPage2.SuspendLayout();
-            this.metroPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.metroPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
+            this.splitContainer3.Panel1.SuspendLayout();
+            this.splitContainer3.Panel2.SuspendLayout();
+            this.splitContainer3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
+            this.splitContainer4.Panel1.SuspendLayout();
+            this.splitContainer4.Panel2.SuspendLayout();
+            this.splitContainer4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).BeginInit();
+            this.splitContainer8.Panel1.SuspendLayout();
+            this.splitContainer8.Panel2.SuspendLayout();
+            this.splitContainer8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgLoaiVacxin)).BeginInit();
+            this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgVacxin_Ma)).BeginInit();
+            this.groupBox6.SuspendLayout();
+            this.metroTabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).BeginInit();
+            this.splitContainer5.Panel1.SuspendLayout();
+            this.splitContainer5.Panel2.SuspendLayout();
+            this.splitContainer5.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer6)).BeginInit();
+            this.splitContainer6.Panel1.SuspendLayout();
+            this.splitContainer6.Panel2.SuspendLayout();
+            this.splitContainer6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgPhieuTiem)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).BeginInit();
+            this.splitContainer7.Panel1.SuspendLayout();
+            this.splitContainer7.Panel2.SuspendLayout();
+            this.splitContainer7.SuspendLayout();
+            this.groupBox9.SuspendLayout();
+            this.groupBox8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgPT_CT)).BeginInit();
             this.SuspendLayout();
             // 
             // btnClose
@@ -109,31 +176,76 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1110, 446);
-            this.splitContainer1.SplitterDistance = 431;
+            this.splitContainer1.Size = new System.Drawing.Size(1110, 484);
+            this.splitContainer1.SplitterDistance = 369;
             this.splitContainer1.TabIndex = 5;
-            this.splitContainer1.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.splitContainer1_SplitterMoved);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.nhomThuoc);
+            this.groupBox1.Controls.Add(this.btnVX_TK);
+            this.groupBox1.Controls.Add(this.txtSearch);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.cbbtypeTK);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.DarkOrange;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(431, 446);
+            this.groupBox1.Size = new System.Drawing.Size(369, 484);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Nhóm Thuốc";
+            this.groupBox1.Text = "groupBox1";
             // 
-            // nhomThuoc
+            // btnVX_TK
             // 
-            this.nhomThuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.nhomThuoc.Location = new System.Drawing.Point(3, 18);
-            this.nhomThuoc.Name = "nhomThuoc";
-            this.nhomThuoc.Size = new System.Drawing.Size(425, 425);
-            this.nhomThuoc.TabIndex = 0;
+            this.btnVX_TK.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnVX_TK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVX_TK.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVX_TK.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnVX_TK.Location = new System.Drawing.Point(249, 71);
+            this.btnVX_TK.Name = "btnVX_TK";
+            this.btnVX_TK.Size = new System.Drawing.Size(103, 32);
+            this.btnVX_TK.TabIndex = 36;
+            this.btnVX_TK.Text = "Tìm kiếm";
+            this.btnVX_TK.UseVisualStyleBackColor = false;
+            this.btnVX_TK.Click += new System.EventHandler(this.btnVX_TK_Click);
+            // 
+            // txtSearch
+            // 
+            this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearch.Enabled = false;
+            this.txtSearch.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearch.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtSearch.Location = new System.Drawing.Point(25, 78);
+            this.txtSearch.Multiline = true;
+            this.txtSearch.Name = "txtSearch";
+            this.txtSearch.Size = new System.Drawing.Size(198, 20);
+            this.txtSearch.TabIndex = 36;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label4.Location = new System.Drawing.Point(21, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(124, 19);
+            this.label4.TabIndex = 37;
+            this.label4.Text = "Tiềm kiếm theo";
+            // 
+            // cbbtypeTK
+            // 
+            this.cbbtypeTK.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbtypeTK.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbtypeTK.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbbtypeTK.FormattingEnabled = true;
+            this.cbbtypeTK.Items.AddRange(new object[] {
+            "Mã Vacxin",
+            "Tên Vacxin",
+            "Mã Loại"});
+            this.cbbtypeTK.Location = new System.Drawing.Point(154, 25);
+            this.cbbtypeTK.Name = "cbbtypeTK";
+            this.cbbtypeTK.Size = new System.Drawing.Size(198, 27);
+            this.cbbtypeTK.TabIndex = 36;
+            this.cbbtypeTK.SelectionChangeCommitted += new System.EventHandler(this.cbbtypeTK_SelectionChangeCommitted);
             // 
             // splitContainer2
             // 
@@ -149,193 +261,251 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.groupBox3);
-            this.splitContainer2.Size = new System.Drawing.Size(675, 446);
-            this.splitContainer2.SplitterDistance = 192;
+            this.splitContainer2.Size = new System.Drawing.Size(737, 484);
+            this.splitContainer2.SplitterDistance = 219;
             this.splitContainer2.TabIndex = 0;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.lvThuoc);
+            this.groupBox2.Controls.Add(this.dtgVacxin);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(675, 192);
+            this.groupBox2.Size = new System.Drawing.Size(737, 219);
             this.groupBox2.TabIndex = 0;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Danh Sách Thuốc";
+            this.groupBox2.Text = "Danh Sách Vacxin";
             // 
-            // lvThuoc
+            // dtgVacxin
             // 
-            this.lvThuoc.BackColor = System.Drawing.SystemColors.Window;
-            this.lvThuoc.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.maVacxin,
-            this.tenVacxin,
-            this.xuatXu,
-            this.donGia,
-            this.tenDichVu,
-            this.TenLoai});
-            this.lvThuoc.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lvThuoc.FullRowSelect = true;
-            this.lvThuoc.GridLines = true;
-            this.lvThuoc.HideSelection = false;
-            this.lvThuoc.Location = new System.Drawing.Point(3, 16);
-            this.lvThuoc.Name = "lvThuoc";
-            this.lvThuoc.Size = new System.Drawing.Size(669, 173);
-            this.lvThuoc.TabIndex = 0;
-            this.lvThuoc.UseCompatibleStateImageBehavior = false;
-            this.lvThuoc.View = System.Windows.Forms.View.Details;
-            // 
-            // maVacxin
-            // 
-            this.maVacxin.Text = "Mã";
-            // 
-            // tenVacxin
-            // 
-            this.tenVacxin.Text = "Tên Vacxin";
-            this.tenVacxin.Width = 90;
-            // 
-            // xuatXu
-            // 
-            this.xuatXu.Text = "Xuất xứ";
-            // 
-            // donGia
-            // 
-            this.donGia.Text = "Đơn giá";
-            // 
-            // tenDichVu
-            // 
-            this.tenDichVu.Text = "Tên Dịch Vụ";
-            this.tenDichVu.Width = 90;
-            // 
-            // TenLoai
-            // 
-            this.TenLoai.Text = "Tên Loại";
-            this.TenLoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.TenLoai.Width = 90;
+            this.dtgVacxin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgVacxin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgVacxin.Location = new System.Drawing.Point(3, 25);
+            this.dtgVacxin.Name = "dtgVacxin";
+            this.dtgVacxin.ReadOnly = true;
+            this.dtgVacxin.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgVacxin.Size = new System.Drawing.Size(731, 191);
+            this.dtgVacxin.TabIndex = 0;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.button1);
-            this.groupBox3.Controls.Add(this.btnThoat);
-            this.groupBox3.Controls.Add(this.btnXoa);
-            this.groupBox3.Controls.Add(this.btnLuu);
-            this.groupBox3.Controls.Add(this.cboNhomThuoc);
+            this.groupBox3.Controls.Add(this.lbSua);
+            this.groupBox3.Controls.Add(this.btnVietPhieu);
+            this.groupBox3.Controls.Add(this.cbxLoaiVacxin);
+            this.groupBox3.Controls.Add(this.txtGiaThanh);
             this.groupBox3.Controls.Add(this.txtXuatXu);
-            this.groupBox3.Controls.Add(this.txtTenThuoc);
-            this.groupBox3.Controls.Add(this.txtMaThuoc);
+            this.groupBox3.Controls.Add(this.txtTenVacxin);
+            this.groupBox3.Controls.Add(this.txtMaVacxin);
             this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Controls.Add(this.btnSua);
+            this.groupBox3.Controls.Add(this.btnXoa);
+            this.groupBox3.Controls.Add(this.btnNhap);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.groupBox3.Location = new System.Drawing.Point(0, 0);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(675, 250);
+            this.groupBox3.Size = new System.Drawing.Size(737, 261);
             this.groupBox3.TabIndex = 0;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Thông tin chi tiết Thuốc";
+            this.groupBox3.Text = "Thông tin Vacxin";
             // 
-            // button1
+            // lbSua
             // 
-            this.button1.Location = new System.Drawing.Point(329, 187);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 21);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Xem";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lbSua.AutoSize = true;
+            this.lbSua.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSua.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbSua.Location = new System.Drawing.Point(380, 191);
+            this.lbSua.Name = "lbSua";
+            this.lbSua.Size = new System.Drawing.Size(191, 19);
+            this.lbSua.TabIndex = 35;
+            this.lbSua.Text = "Bạn muốn sửa Vacxin ?";
+            this.lbSua.Click += new System.EventHandler(this.lbSua_Click);
+            this.lbSua.MouseLeave += new System.EventHandler(this.lbSua_MouseLeave);
+            this.lbSua.MouseHover += new System.EventHandler(this.label6_MouseHover);
             // 
-            // btnThoat
+            // btnVietPhieu
             // 
-            this.btnThoat.Location = new System.Drawing.Point(219, 187);
-            this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(95, 21);
-            this.btnThoat.TabIndex = 10;
-            this.btnThoat.Text = "Sửa";
-            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnVietPhieu.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnVietPhieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVietPhieu.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnVietPhieu.Location = new System.Drawing.Point(530, 221);
+            this.btnVietPhieu.Name = "btnVietPhieu";
+            this.btnVietPhieu.Size = new System.Drawing.Size(103, 32);
+            this.btnVietPhieu.TabIndex = 34;
+            this.btnVietPhieu.Text = "Viết Phiếu";
+            this.btnVietPhieu.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnVietPhieu.UseVisualStyleBackColor = false;
+            this.btnVietPhieu.Click += new System.EventHandler(this.btnVietPhieu_Click);
             // 
-            // btnXoa
+            // cbxLoaiVacxin
             // 
-            this.btnXoa.Location = new System.Drawing.Point(116, 187);
-            this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(88, 21);
-            this.btnXoa.TabIndex = 9;
-            this.btnXoa.Text = "Xuất thuốc";
-            this.btnXoa.UseVisualStyleBackColor = true;
+            this.cbxLoaiVacxin.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbxLoaiVacxin.FormattingEnabled = true;
+            this.cbxLoaiVacxin.Location = new System.Drawing.Point(152, 186);
+            this.cbxLoaiVacxin.Name = "cbxLoaiVacxin";
+            this.cbxLoaiVacxin.Size = new System.Drawing.Size(198, 30);
+            this.cbxLoaiVacxin.TabIndex = 33;
             // 
-            // btnLuu
+            // txtGiaThanh
             // 
-            this.btnLuu.Location = new System.Drawing.Point(18, 187);
-            this.btnLuu.Name = "btnLuu";
-            this.btnLuu.Size = new System.Drawing.Size(83, 21);
-            this.btnLuu.TabIndex = 8;
-            this.btnLuu.Text = "Nhập Thuốc";
-            this.btnLuu.UseVisualStyleBackColor = true;
-            // 
-            // cboNhomThuoc
-            // 
-            this.cboNhomThuoc.FormattingEnabled = true;
-            this.cboNhomThuoc.Location = new System.Drawing.Point(100, 149);
-            this.cboNhomThuoc.Name = "cboNhomThuoc";
-            this.cboNhomThuoc.Size = new System.Drawing.Size(143, 21);
-            this.cboNhomThuoc.TabIndex = 7;
+            this.txtGiaThanh.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtGiaThanh.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtGiaThanh.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtGiaThanh.Location = new System.Drawing.Point(152, 141);
+            this.txtGiaThanh.Multiline = true;
+            this.txtGiaThanh.Name = "txtGiaThanh";
+            this.txtGiaThanh.Size = new System.Drawing.Size(198, 20);
+            this.txtGiaThanh.TabIndex = 32;
             // 
             // txtXuatXu
             // 
-            this.txtXuatXu.Location = new System.Drawing.Point(100, 102);
+            this.txtXuatXu.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtXuatXu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtXuatXu.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtXuatXu.Location = new System.Drawing.Point(152, 101);
+            this.txtXuatXu.Multiline = true;
             this.txtXuatXu.Name = "txtXuatXu";
-            this.txtXuatXu.Size = new System.Drawing.Size(143, 20);
-            this.txtXuatXu.TabIndex = 6;
+            this.txtXuatXu.Size = new System.Drawing.Size(198, 20);
+            this.txtXuatXu.TabIndex = 31;
             // 
-            // txtTenThuoc
+            // txtTenVacxin
             // 
-            this.txtTenThuoc.Location = new System.Drawing.Point(100, 68);
-            this.txtTenThuoc.Name = "txtTenThuoc";
-            this.txtTenThuoc.Size = new System.Drawing.Size(143, 20);
-            this.txtTenThuoc.TabIndex = 5;
+            this.txtTenVacxin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenVacxin.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenVacxin.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtTenVacxin.Location = new System.Drawing.Point(152, 62);
+            this.txtTenVacxin.Multiline = true;
+            this.txtTenVacxin.Name = "txtTenVacxin";
+            this.txtTenVacxin.Size = new System.Drawing.Size(198, 20);
+            this.txtTenVacxin.TabIndex = 30;
             // 
-            // txtMaThuoc
+            // txtMaVacxin
             // 
-            this.txtMaThuoc.Location = new System.Drawing.Point(100, 26);
-            this.txtMaThuoc.Name = "txtMaThuoc";
-            this.txtMaThuoc.Size = new System.Drawing.Size(143, 20);
-            this.txtMaThuoc.TabIndex = 4;
+            this.txtMaVacxin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMaVacxin.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaVacxin.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtMaVacxin.Location = new System.Drawing.Point(152, 30);
+            this.txtMaVacxin.Multiline = true;
+            this.txtMaVacxin.Name = "txtMaVacxin";
+            this.txtMaVacxin.Size = new System.Drawing.Size(198, 20);
+            this.txtMaVacxin.TabIndex = 3;
+            this.txtMaVacxin.TextChanged += new System.EventHandler(this.txtMaVacxin_TextChanged);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(15, 156);
+            this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label5.Location = new System.Drawing.Point(15, 141);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 13);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Nhóm Thuốc";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label5.Size = new System.Drawing.Size(91, 19);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Giá Thành ";
             // 
-            // label4
+            // button3
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(15, 108);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(45, 13);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Xuất Xứ";
+            this.button3.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button3.Location = new System.Drawing.Point(408, 221);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(103, 32);
+            this.button3.TabIndex = 26;
+            this.button3.Text = "Xem";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // btnSua
+            // 
+            this.btnSua.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnSua.Enabled = false;
+            this.btnSua.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSua.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSua.Location = new System.Drawing.Point(287, 221);
+            this.btnSua.Name = "btnSua";
+            this.btnSua.Size = new System.Drawing.Size(103, 32);
+            this.btnSua.TabIndex = 25;
+            this.btnSua.Text = "Sửa";
+            this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btnXoa
+            // 
+            this.btnXoa.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnXoa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoa.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnXoa.Location = new System.Drawing.Point(152, 221);
+            this.btnXoa.Name = "btnXoa";
+            this.btnXoa.Size = new System.Drawing.Size(103, 32);
+            this.btnXoa.TabIndex = 24;
+            this.btnXoa.Text = "Xóa";
+            this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
+            // 
+            // btnNhap
+            // 
+            this.btnNhap.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNhap.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnNhap.Location = new System.Drawing.Point(19, 221);
+            this.btnNhap.Name = "btnNhap";
+            this.btnNhap.Size = new System.Drawing.Size(103, 32);
+            this.btnNhap.TabIndex = 23;
+            this.btnNhap.Text = "Nhập";
+            this.btnNhap.UseVisualStyleBackColor = false;
+            this.btnNhap.Click += new System.EventHandler(this.btnNhap_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 73);
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label3.Location = new System.Drawing.Point(15, 186);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 13);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Tên Thuốc";
+            this.label3.Size = new System.Drawing.Size(101, 19);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "Loại  Vacxin";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 32);
+            this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label2.Location = new System.Drawing.Point(15, 102);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Mã Thuốc";
+            this.label2.Size = new System.Drawing.Size(73, 19);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Xuất xứ ";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label1.Location = new System.Drawing.Point(15, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(93, 19);
+            this.label1.TabIndex = 18;
+            this.label1.Text = "Tên Vacxin";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label7.Location = new System.Drawing.Point(15, 30);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(86, 19);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Mã Vacxin";
             // 
             // metroTabControl1
             // 
@@ -346,19 +516,21 @@
             this.metroTabControl1.Location = new System.Drawing.Point(0, 0);
             this.metroTabControl1.Name = "metroTabControl1";
             this.metroTabControl1.SelectedIndex = 0;
-            this.metroTabControl1.Size = new System.Drawing.Size(1118, 488);
+            this.metroTabControl1.Size = new System.Drawing.Size(1118, 526);
             this.metroTabControl1.TabIndex = 6;
             this.metroTabControl1.UseSelectable = true;
+            this.metroTabControl1.SelectedIndexChanged += new System.EventHandler(this.metroTabControl1_SelectedIndexChanged);
             // 
             // metroTabPage1
             // 
             this.metroTabPage1.Controls.Add(this.splitContainer1);
+            this.metroTabPage1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.metroTabPage1.HorizontalScrollbarBarColor = true;
             this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.HorizontalScrollbarSize = 9;
+            this.metroTabPage1.HorizontalScrollbarSize = 10;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage1.Name = "metroTabPage1";
-            this.metroTabPage1.Size = new System.Drawing.Size(1110, 446);
+            this.metroTabPage1.Size = new System.Drawing.Size(1110, 484);
             this.metroTabPage1.TabIndex = 0;
             this.metroTabPage1.Text = "Kho thuốc";
             this.metroTabPage1.VerticalScrollbarBarColor = false;
@@ -367,113 +539,555 @@
             // 
             // metroTabPage2
             // 
-            this.metroTabPage2.Controls.Add(this.metroPanel2);
-            this.metroTabPage2.Controls.Add(this.metroPanel1);
+            this.metroTabPage2.Controls.Add(this.splitContainer3);
+            this.metroTabPage2.ForeColor = System.Drawing.SystemColors.Highlight;
             this.metroTabPage2.HorizontalScrollbarBarColor = true;
             this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.HorizontalScrollbarSize = 9;
+            this.metroTabPage2.HorizontalScrollbarSize = 10;
             this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage2.Name = "metroTabPage2";
-            this.metroTabPage2.Size = new System.Drawing.Size(1110, 446);
+            this.metroTabPage2.Size = new System.Drawing.Size(1110, 484);
             this.metroTabPage2.TabIndex = 1;
-            this.metroTabPage2.Text = "Doanh Thu";
+            this.metroTabPage2.Text = "Loại Thuốc";
             this.metroTabPage2.VerticalScrollbarBarColor = true;
             this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage2.VerticalScrollbarSize = 10;
             // 
-            // metroPanel2
+            // splitContainer3
             // 
-            this.metroPanel2.Controls.Add(this.dataGridView1);
-            this.metroPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroPanel2.HorizontalScrollbarBarColor = true;
-            this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel2.HorizontalScrollbarSize = 9;
-            this.metroPanel2.Location = new System.Drawing.Point(0, 93);
-            this.metroPanel2.Name = "metroPanel2";
-            this.metroPanel2.Size = new System.Drawing.Size(1110, 353);
-            this.metroPanel2.TabIndex = 3;
-            this.metroPanel2.VerticalScrollbarBarColor = true;
-            this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel2.VerticalScrollbarSize = 10;
+            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer3.Name = "splitContainer3";
             // 
-            // dataGridView1
+            // splitContainer3.Panel1
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1110, 353);
-            this.dataGridView1.TabIndex = 2;
+            this.splitContainer3.Panel1.Controls.Add(this.groupBox4);
             // 
-            // metroPanel1
+            // splitContainer3.Panel2
             // 
-            this.metroPanel1.Controls.Add(this.metroButton1);
-            this.metroPanel1.Controls.Add(this.metroDateTime2);
-            this.metroPanel1.Controls.Add(this.metroDateTime1);
-            this.metroPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.metroPanel1.HorizontalScrollbarBarColor = true;
-            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 9;
-            this.metroPanel1.Location = new System.Drawing.Point(0, 0);
-            this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(1110, 93);
-            this.metroPanel1.TabIndex = 2;
-            this.metroPanel1.VerticalScrollbarBarColor = true;
-            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
+            this.splitContainer3.Panel2.Controls.Add(this.splitContainer4);
+            this.splitContainer3.Size = new System.Drawing.Size(1110, 484);
+            this.splitContainer3.SplitterDistance = 370;
+            this.splitContainer3.TabIndex = 2;
             // 
-            // metroButton1
+            // groupBox4
             // 
-            this.metroButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroButton1.Location = new System.Drawing.Point(200, 0);
-            this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(710, 93);
-            this.metroButton1.TabIndex = 4;
-            this.metroButton1.Text = "Thống kê";
-            this.metroButton1.UseSelectable = true;
+            this.groupBox4.Controls.Add(this.cbbLoai);
+            this.groupBox4.Controls.Add(this.btnSearchLoai);
+            this.groupBox4.Controls.Add(this.txtSearchLoai);
+            this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox4.Location = new System.Drawing.Point(0, 0);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(370, 484);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Tìm Kiếm";
             // 
-            // metroDateTime2
+            // cbbLoai
             // 
-            this.metroDateTime2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.metroDateTime2.FontSize = MetroFramework.MetroDateTimeSize.Tall;
-            this.metroDateTime2.Location = new System.Drawing.Point(910, 0);
-            this.metroDateTime2.MinimumSize = new System.Drawing.Size(0, 35);
-            this.metroDateTime2.Name = "metroDateTime2";
-            this.metroDateTime2.Size = new System.Drawing.Size(200, 35);
-            this.metroDateTime2.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroDateTime2.TabIndex = 3;
+            this.cbbLoai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbbLoai.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.cbbLoai.FormattingEnabled = true;
+            this.cbbLoai.Items.AddRange(new object[] {
+            "Tên loại",
+            "Mã Loại"});
+            this.cbbLoai.Location = new System.Drawing.Point(143, 31);
+            this.cbbLoai.Name = "cbbLoai";
+            this.cbbLoai.Size = new System.Drawing.Size(198, 27);
+            this.cbbLoai.TabIndex = 35;
+            this.cbbLoai.SelectionChangeCommitted += new System.EventHandler(this.cbbLoai_SelectionChangeCommitted);
             // 
-            // metroDateTime1
+            // btnSearchLoai
             // 
-            this.metroDateTime1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.metroDateTime1.FontSize = MetroFramework.MetroDateTimeSize.Tall;
-            this.metroDateTime1.Location = new System.Drawing.Point(0, 0);
-            this.metroDateTime1.MinimumSize = new System.Drawing.Size(0, 35);
-            this.metroDateTime1.Name = "metroDateTime1";
-            this.metroDateTime1.Size = new System.Drawing.Size(200, 35);
-            this.metroDateTime1.Style = MetroFramework.MetroColorStyle.Black;
-            this.metroDateTime1.TabIndex = 2;
+            this.btnSearchLoai.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnSearchLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSearchLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearchLoai.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSearchLoai.Location = new System.Drawing.Point(241, 85);
+            this.btnSearchLoai.Name = "btnSearchLoai";
+            this.btnSearchLoai.Size = new System.Drawing.Size(111, 32);
+            this.btnSearchLoai.TabIndex = 28;
+            this.btnSearchLoai.Text = "Tìm Kiếm";
+            this.btnSearchLoai.UseVisualStyleBackColor = false;
+            this.btnSearchLoai.Click += new System.EventHandler(this.btnSearchLoai_Click);
+            // 
+            // txtSearchLoai
+            // 
+            this.txtSearchLoai.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSearchLoai.Enabled = false;
+            this.txtSearchLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchLoai.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtSearchLoai.Location = new System.Drawing.Point(20, 85);
+            this.txtSearchLoai.Multiline = true;
+            this.txtSearchLoai.Name = "txtSearchLoai";
+            this.txtSearchLoai.Size = new System.Drawing.Size(198, 24);
+            this.txtSearchLoai.TabIndex = 19;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label9.Location = new System.Drawing.Point(16, 34);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(121, 19);
+            this.label9.TabIndex = 20;
+            this.label9.Text = "Tìm kiếm theo:";
+            // 
+            // splitContainer4
+            // 
+            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer4.Name = "splitContainer4";
+            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer4.Panel1
+            // 
+            this.splitContainer4.Panel1.Controls.Add(this.groupBox5);
+            // 
+            // splitContainer4.Panel2
+            // 
+            this.splitContainer4.Panel2.Controls.Add(this.groupBox6);
+            this.splitContainer4.Size = new System.Drawing.Size(736, 484);
+            this.splitContainer4.SplitterDistance = 245;
+            this.splitContainer4.TabIndex = 0;
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.splitContainer8);
+            this.groupBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox5.Location = new System.Drawing.Point(0, 0);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(736, 245);
+            this.groupBox5.TabIndex = 0;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Thông tin loại Vacxin";
+            // 
+            // splitContainer8
+            // 
+            this.splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer8.Location = new System.Drawing.Point(3, 16);
+            this.splitContainer8.Name = "splitContainer8";
+            // 
+            // splitContainer8.Panel1
+            // 
+            this.splitContainer8.Panel1.Controls.Add(this.dtgLoaiVacxin);
+            // 
+            // splitContainer8.Panel2
+            // 
+            this.splitContainer8.Panel2.Controls.Add(this.groupBox10);
+            this.splitContainer8.Size = new System.Drawing.Size(730, 226);
+            this.splitContainer8.SplitterDistance = 276;
+            this.splitContainer8.TabIndex = 0;
+            // 
+            // dtgLoaiVacxin
+            // 
+            this.dtgLoaiVacxin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgLoaiVacxin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgLoaiVacxin.Location = new System.Drawing.Point(0, 0);
+            this.dtgLoaiVacxin.Name = "dtgLoaiVacxin";
+            this.dtgLoaiVacxin.ReadOnly = true;
+            this.dtgLoaiVacxin.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgLoaiVacxin.Size = new System.Drawing.Size(276, 226);
+            this.dtgLoaiVacxin.TabIndex = 0;
+            this.dtgLoaiVacxin.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgLoaiVacxin_CellClick);
+            // 
+            // groupBox10
+            // 
+            this.groupBox10.Controls.Add(this.dtgVacxin_Ma);
+            this.groupBox10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox10.Location = new System.Drawing.Point(0, 0);
+            this.groupBox10.Name = "groupBox10";
+            this.groupBox10.Size = new System.Drawing.Size(450, 226);
+            this.groupBox10.TabIndex = 0;
+            this.groupBox10.TabStop = false;
+            this.groupBox10.Text = "Vacxin trong mã";
+            // 
+            // dtgVacxin_Ma
+            // 
+            this.dtgVacxin_Ma.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgVacxin_Ma.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgVacxin_Ma.Location = new System.Drawing.Point(3, 16);
+            this.dtgVacxin_Ma.MultiSelect = false;
+            this.dtgVacxin_Ma.Name = "dtgVacxin_Ma";
+            this.dtgVacxin_Ma.ReadOnly = true;
+            this.dtgVacxin_Ma.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgVacxin_Ma.Size = new System.Drawing.Size(444, 207);
+            this.dtgVacxin_Ma.TabIndex = 0;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.lbSuaLoai);
+            this.groupBox6.Controls.Add(this.btnXemLoai);
+            this.groupBox6.Controls.Add(this.btnSuaLoai);
+            this.groupBox6.Controls.Add(this.button2);
+            this.groupBox6.Controls.Add(this.btnThemLoai);
+            this.groupBox6.Controls.Add(this.txtTenLoai);
+            this.groupBox6.Controls.Add(this.label8);
+            this.groupBox6.Controls.Add(this.txtMaLoai);
+            this.groupBox6.Controls.Add(this.label6);
+            this.groupBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox6.Location = new System.Drawing.Point(0, 0);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(736, 235);
+            this.groupBox6.TabIndex = 0;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "groupBox6";
+            // 
+            // lbSuaLoai
+            // 
+            this.lbSuaLoai.AutoSize = true;
+            this.lbSuaLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSuaLoai.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbSuaLoai.Location = new System.Drawing.Point(463, 93);
+            this.lbSuaLoai.Name = "lbSuaLoai";
+            this.lbSuaLoai.Size = new System.Drawing.Size(228, 19);
+            this.lbSuaLoai.TabIndex = 45;
+            this.lbSuaLoai.Text = "Bạn muốn sửa Loại Vacxin ?";
+            this.lbSuaLoai.Click += new System.EventHandler(this.lbSuaLoai_Click);
+            this.lbSuaLoai.MouseLeave += new System.EventHandler(this.lbSuaLoai_MouseLeave);
+            this.lbSuaLoai.MouseHover += new System.EventHandler(this.lbSuaLoai_MouseHover);
+            // 
+            // btnXemLoai
+            // 
+            this.btnXemLoai.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnXemLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXemLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXemLoai.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnXemLoai.Location = new System.Drawing.Point(484, 164);
+            this.btnXemLoai.Name = "btnXemLoai";
+            this.btnXemLoai.Size = new System.Drawing.Size(103, 32);
+            this.btnXemLoai.TabIndex = 44;
+            this.btnXemLoai.Text = "Xem";
+            this.btnXemLoai.UseVisualStyleBackColor = false;
+            this.btnXemLoai.Click += new System.EventHandler(this.btnXemLoai_Click);
+            // 
+            // btnSuaLoai
+            // 
+            this.btnSuaLoai.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnSuaLoai.Enabled = false;
+            this.btnSuaLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSuaLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSuaLoai.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnSuaLoai.Location = new System.Drawing.Point(335, 164);
+            this.btnSuaLoai.Name = "btnSuaLoai";
+            this.btnSuaLoai.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnSuaLoai.Size = new System.Drawing.Size(103, 32);
+            this.btnSuaLoai.TabIndex = 43;
+            this.btnSuaLoai.Text = "Sửa";
+            this.btnSuaLoai.UseVisualStyleBackColor = false;
+            this.btnSuaLoai.Click += new System.EventHandler(this.btnSuaLoai_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Location = new System.Drawing.Point(190, 164);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(103, 32);
+            this.button2.TabIndex = 42;
+            this.button2.Text = "Xóa";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
+            // 
+            // btnThemLoai
+            // 
+            this.btnThemLoai.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnThemLoai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThemLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThemLoai.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnThemLoai.Location = new System.Drawing.Point(46, 164);
+            this.btnThemLoai.Name = "btnThemLoai";
+            this.btnThemLoai.Size = new System.Drawing.Size(103, 32);
+            this.btnThemLoai.TabIndex = 41;
+            this.btnThemLoai.Text = "Thêm";
+            this.btnThemLoai.UseVisualStyleBackColor = false;
+            this.btnThemLoai.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // txtTenLoai
+            // 
+            this.txtTenLoai.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtTenLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTenLoai.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtTenLoai.Location = new System.Drawing.Point(208, 92);
+            this.txtTenLoai.Multiline = true;
+            this.txtTenLoai.Name = "txtTenLoai";
+            this.txtTenLoai.Size = new System.Drawing.Size(198, 20);
+            this.txtTenLoai.TabIndex = 39;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label8.Location = new System.Drawing.Point(58, 92);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(130, 19);
+            this.label8.TabIndex = 40;
+            this.label8.Text = "Tên Loại Vacxin";
+            // 
+            // txtMaLoai
+            // 
+            this.txtMaLoai.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMaLoai.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaLoai.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtMaLoai.Location = new System.Drawing.Point(208, 38);
+            this.txtMaLoai.Multiline = true;
+            this.txtMaLoai.Name = "txtMaLoai";
+            this.txtMaLoai.Size = new System.Drawing.Size(198, 20);
+            this.txtMaLoai.TabIndex = 37;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label6.Location = new System.Drawing.Point(58, 39);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(123, 19);
+            this.label6.TabIndex = 38;
+            this.label6.Text = "Mã Loại Vacxin";
             // 
             // metroTabPage3
             // 
+            this.metroTabPage3.Controls.Add(this.splitContainer5);
             this.metroTabPage3.HorizontalScrollbarBarColor = true;
             this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.HorizontalScrollbarSize = 9;
+            this.metroTabPage3.HorizontalScrollbarSize = 10;
             this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage3.Name = "metroTabPage3";
-            this.metroTabPage3.Size = new System.Drawing.Size(1110, 446);
+            this.metroTabPage3.Size = new System.Drawing.Size(1110, 484);
             this.metroTabPage3.TabIndex = 2;
-            this.metroTabPage3.Text = "Tài Khoản";
+            this.metroTabPage3.Text = "Danh sách Phiếu tiêm";
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
             this.metroTabPage3.VerticalScrollbarSize = 10;
             // 
+            // splitContainer5
+            // 
+            this.splitContainer5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer5.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer5.Name = "splitContainer5";
+            this.splitContainer5.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer5.Panel1
+            // 
+            this.splitContainer5.Panel1.Controls.Add(this.groupBox7);
+            // 
+            // splitContainer5.Panel2
+            // 
+            this.splitContainer5.Panel2.Controls.Add(this.groupBox8);
+            this.splitContainer5.Size = new System.Drawing.Size(1110, 484);
+            this.splitContainer5.SplitterDistance = 215;
+            this.splitContainer5.TabIndex = 2;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.splitContainer6);
+            this.groupBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox7.Location = new System.Drawing.Point(0, 0);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(1110, 215);
+            this.groupBox7.TabIndex = 0;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "groupBox7";
+            // 
+            // splitContainer6
+            // 
+            this.splitContainer6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer6.Location = new System.Drawing.Point(3, 16);
+            this.splitContainer6.Name = "splitContainer6";
+            // 
+            // splitContainer6.Panel1
+            // 
+            this.splitContainer6.Panel1.Controls.Add(this.dtgPhieuTiem);
+            // 
+            // splitContainer6.Panel2
+            // 
+            this.splitContainer6.Panel2.Controls.Add(this.splitContainer7);
+            this.splitContainer6.Size = new System.Drawing.Size(1104, 196);
+            this.splitContainer6.SplitterDistance = 639;
+            this.splitContainer6.TabIndex = 1;
+            // 
+            // dtgPhieuTiem
+            // 
+            this.dtgPhieuTiem.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgPhieuTiem.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgPhieuTiem.Location = new System.Drawing.Point(0, 0);
+            this.dtgPhieuTiem.Name = "dtgPhieuTiem";
+            this.dtgPhieuTiem.ReadOnly = true;
+            this.dtgPhieuTiem.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dtgPhieuTiem.Size = new System.Drawing.Size(639, 196);
+            this.dtgPhieuTiem.TabIndex = 0;
+            this.dtgPhieuTiem.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgPhieuTiem_CellClick_1);
+            // 
+            // splitContainer7
+            // 
+            this.splitContainer7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer7.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer7.Name = "splitContainer7";
+            // 
+            // splitContainer7.Panel1
+            // 
+            this.splitContainer7.Panel1.Controls.Add(this.btnXem_PN);
+            this.splitContainer7.Panel1.Controls.Add(this.btnXoaPhieu);
+            // 
+            // splitContainer7.Panel2
+            // 
+            this.splitContainer7.Panel2.Controls.Add(this.groupBox9);
+            this.splitContainer7.Size = new System.Drawing.Size(461, 196);
+            this.splitContainer7.SplitterDistance = 227;
+            this.splitContainer7.TabIndex = 0;
+            // 
+            // btnXem_PN
+            // 
+            this.btnXem_PN.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnXem_PN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXem_PN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXem_PN.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnXem_PN.Location = new System.Drawing.Point(26, 92);
+            this.btnXem_PN.Name = "btnXem_PN";
+            this.btnXem_PN.Size = new System.Drawing.Size(165, 40);
+            this.btnXem_PN.TabIndex = 44;
+            this.btnXem_PN.Text = "Xem";
+            this.btnXem_PN.UseVisualStyleBackColor = false;
+            this.btnXem_PN.Click += new System.EventHandler(this.btnXem_PN_Click);
+            // 
+            // btnXoaPhieu
+            // 
+            this.btnXoaPhieu.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnXoaPhieu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXoaPhieu.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaPhieu.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnXoaPhieu.Location = new System.Drawing.Point(26, 17);
+            this.btnXoaPhieu.Name = "btnXoaPhieu";
+            this.btnXoaPhieu.Size = new System.Drawing.Size(165, 40);
+            this.btnXoaPhieu.TabIndex = 43;
+            this.btnXoaPhieu.Text = "Xóa Phiếu Tiêm";
+            this.btnXoaPhieu.UseVisualStyleBackColor = false;
+            this.btnXoaPhieu.Click += new System.EventHandler(this.btnXoaPhieu_Click);
+            // 
+            // groupBox9
+            // 
+            this.groupBox9.Controls.Add(this.btnTK_PN);
+            this.groupBox9.Controls.Add(this.label11);
+            this.groupBox9.Controls.Add(this.txtMa_NV);
+            this.groupBox9.Controls.Add(this.dtNgayNhap_PN);
+            this.groupBox9.Controls.Add(this.label10);
+            this.groupBox9.Controls.Add(this.comboBox1);
+            this.groupBox9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox9.Location = new System.Drawing.Point(0, 0);
+            this.groupBox9.Name = "groupBox9";
+            this.groupBox9.Size = new System.Drawing.Size(230, 196);
+            this.groupBox9.TabIndex = 35;
+            this.groupBox9.TabStop = false;
+            this.groupBox9.Text = "Tìm Kiếm";
+            // 
+            // btnTK_PN
+            // 
+            this.btnTK_PN.BackColor = System.Drawing.SystemColors.Highlight;
+            this.btnTK_PN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTK_PN.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTK_PN.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnTK_PN.Location = new System.Drawing.Point(22, 141);
+            this.btnTK_PN.Name = "btnTK_PN";
+            this.btnTK_PN.Size = new System.Drawing.Size(165, 40);
+            this.btnTK_PN.TabIndex = 44;
+            this.btnTK_PN.Text = "Tìm Kiếm";
+            this.btnTK_PN.UseVisualStyleBackColor = false;
+            this.btnTK_PN.Click += new System.EventHandler(this.btnTK_PN_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label11.Location = new System.Drawing.Point(6, 72);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(56, 19);
+            this.label11.TabIndex = 39;
+            this.label11.Text = "Nhập:";
+            // 
+            // txtMa_NV
+            // 
+            this.txtMa_NV.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMa_NV.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMa_NV.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.txtMa_NV.Location = new System.Drawing.Point(6, 103);
+            this.txtMa_NV.Multiline = true;
+            this.txtMa_NV.Name = "txtMa_NV";
+            this.txtMa_NV.Size = new System.Drawing.Size(198, 20);
+            this.txtMa_NV.TabIndex = 38;
+            this.txtMa_NV.Visible = false;
+            // 
+            // dtNgayNhap_PN
+            // 
+            this.dtNgayNhap_PN.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtNgayNhap_PN.Location = new System.Drawing.Point(6, 94);
+            this.dtNgayNhap_PN.MinimumSize = new System.Drawing.Size(4, 29);
+            this.dtNgayNhap_PN.Name = "dtNgayNhap_PN";
+            this.dtNgayNhap_PN.Size = new System.Drawing.Size(198, 29);
+            this.dtNgayNhap_PN.TabIndex = 36;
+            this.dtNgayNhap_PN.Visible = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.label10.Location = new System.Drawing.Point(3, 17);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(121, 19);
+            this.label10.TabIndex = 35;
+            this.label10.Text = "Tìm kiếm theo:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Ngày nhập",
+            "Nhân viên nhập",
+            "Mã Phiếu Nhập"});
+            this.comboBox1.Location = new System.Drawing.Point(7, 39);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(198, 27);
+            this.comboBox1.TabIndex = 34;
+            this.comboBox1.SelectionChangeCommitted += new System.EventHandler(this.comboBox1_SelectionChangeCommitted);
+            // 
+            // groupBox8
+            // 
+            this.groupBox8.Controls.Add(this.dtgPT_CT);
+            this.groupBox8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupBox8.Location = new System.Drawing.Point(0, 0);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(1110, 265);
+            this.groupBox8.TabIndex = 0;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "groupBox8";
+            // 
+            // dtgPT_CT
+            // 
+            this.dtgPT_CT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgPT_CT.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dtgPT_CT.Location = new System.Drawing.Point(3, 16);
+            this.dtgPT_CT.Name = "dtgPT_CT";
+            this.dtgPT_CT.ReadOnly = true;
+            this.dtgPT_CT.Size = new System.Drawing.Size(1104, 246);
+            this.dtgPT_CT.TabIndex = 0;
+            // 
             // FormDrugStore
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1136, 488);
+            this.ClientSize = new System.Drawing.Size(1136, 526);
             this.Controls.Add(this.metroTabControl1);
             this.Controls.Add(this.btnClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -485,19 +1099,57 @@
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.splitContainer2.Panel1.ResumeLayout(false);
             this.splitContainer2.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
             this.splitContainer2.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgVacxin)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.metroTabControl1.ResumeLayout(false);
             this.metroTabPage1.ResumeLayout(false);
             this.metroTabPage2.ResumeLayout(false);
-            this.metroPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.metroPanel1.ResumeLayout(false);
+            this.splitContainer3.Panel1.ResumeLayout(false);
+            this.splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
+            this.splitContainer3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.splitContainer4.Panel1.ResumeLayout(false);
+            this.splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
+            this.splitContainer4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.splitContainer8.Panel1.ResumeLayout(false);
+            this.splitContainer8.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer8)).EndInit();
+            this.splitContainer8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgLoaiVacxin)).EndInit();
+            this.groupBox10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgVacxin_Ma)).EndInit();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            this.metroTabPage3.ResumeLayout(false);
+            this.splitContainer5.Panel1.ResumeLayout(false);
+            this.splitContainer5.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer5)).EndInit();
+            this.splitContainer5.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.splitContainer6.Panel1.ResumeLayout(false);
+            this.splitContainer6.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer6)).EndInit();
+            this.splitContainer6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgPhieuTiem)).EndInit();
+            this.splitContainer7.Panel1.ResumeLayout(false);
+            this.splitContainer7.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer7)).EndInit();
+            this.splitContainer7.ResumeLayout(false);
+            this.groupBox9.ResumeLayout(false);
+            this.groupBox9.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgPT_CT)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -506,39 +1158,72 @@
         #endregion
         private System.Windows.Forms.Label btnClose;
         private System.Windows.Forms.SplitContainer splitContainer1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TreeView nhomThuoc;
         private System.Windows.Forms.SplitContainer splitContainer2;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ListView lvThuoc;
-        private System.Windows.Forms.ColumnHeader maVacxin;
-        private System.Windows.Forms.ColumnHeader tenVacxin;
-        private System.Windows.Forms.ColumnHeader xuatXu;
-        private System.Windows.Forms.ColumnHeader donGia;
-        private System.Windows.Forms.ColumnHeader tenDichVu;
-        private System.Windows.Forms.ColumnHeader TenLoai;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnThoat;
-        private System.Windows.Forms.Button btnXoa;
-        private System.Windows.Forms.Button btnLuu;
-        private System.Windows.Forms.ComboBox cboNhomThuoc;
-        private System.Windows.Forms.TextBox txtXuatXu;
-        private System.Windows.Forms.TextBox txtTenThuoc;
-        private System.Windows.Forms.TextBox txtMaThuoc;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
         private MetroFramework.Controls.MetroTabControl metroTabControl1;
         private MetroFramework.Controls.MetroTabPage metroTabPage1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label7;
+        public System.Windows.Forms.Button button3;
+        public System.Windows.Forms.Button btnSua;
+        public System.Windows.Forms.Button btnXoa;
+        public System.Windows.Forms.Button btnNhap;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtGiaThanh;
+        private System.Windows.Forms.TextBox txtXuatXu;
+        private System.Windows.Forms.TextBox txtTenVacxin;
+        private System.Windows.Forms.TextBox txtMaVacxin;
+        private System.Windows.Forms.ComboBox cbxLoaiVacxin;
+        public System.Windows.Forms.Button btnVietPhieu;
+        private System.Windows.Forms.Label lbSua;
         private MetroFramework.Controls.MetroTabPage metroTabPage2;
-        private MetroFramework.Controls.MetroPanel metroPanel2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private MetroFramework.Controls.MetroPanel metroPanel1;
-        private MetroFramework.Controls.MetroButton metroButton1;
-        private MetroFramework.Controls.MetroDateTime metroDateTime2;
-        private MetroFramework.Controls.MetroDateTime metroDateTime1;
+        private System.Windows.Forms.SplitContainer splitContainer3;
+        private System.Windows.Forms.SplitContainer splitContainer4;
+        private System.Windows.Forms.GroupBox groupBox4;
+        public System.Windows.Forms.Button btnSearchLoai;
+        private System.Windows.Forms.TextBox txtSearchLoai;
+        private System.Windows.Forms.Label label9;
         private MetroFramework.Controls.MetroTabPage metroTabPage3;
+        private System.Windows.Forms.SplitContainer splitContainer5;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.DataGridView dtgLoaiVacxin;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label lbSuaLoai;
+        public System.Windows.Forms.Button btnXemLoai;
+        public System.Windows.Forms.Button btnSuaLoai;
+        public System.Windows.Forms.Button button2;
+        public System.Windows.Forms.Button btnThemLoai;
+        private System.Windows.Forms.TextBox txtTenLoai;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtMaLoai;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.DataGridView dtgPhieuTiem;
+        private System.Windows.Forms.GroupBox groupBox8;
+        private System.Windows.Forms.DataGridView dtgPT_CT;
+        private System.Windows.Forms.DataGridView dtgVacxin;
+        private System.Windows.Forms.SplitContainer splitContainer6;
+        private System.Windows.Forms.SplitContainer splitContainer7;
+        public System.Windows.Forms.Button btnXoaPhieu;
+        private System.Windows.Forms.GroupBox groupBox9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private MetroFramework.Controls.MetroDateTime dtNgayNhap_PN;
+        private System.Windows.Forms.TextBox txtMa_NV;
+        private System.Windows.Forms.Label label11;
+        public System.Windows.Forms.Button btnTK_PN;
+        public System.Windows.Forms.Button btnXem_PN;
+        private System.Windows.Forms.ComboBox cbbLoai;
+        private System.Windows.Forms.SplitContainer splitContainer8;
+        private System.Windows.Forms.GroupBox groupBox10;
+        private System.Windows.Forms.DataGridView dtgVacxin_Ma;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox cbbtypeTK;
+        private System.Windows.Forms.TextBox txtSearch;
+        public System.Windows.Forms.Button btnVX_TK;
     }
 }
